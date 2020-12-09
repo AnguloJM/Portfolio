@@ -1,0 +1,11 @@
+.projects-box {
+  background-color: #364452;
+  height: 500px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+#projects-title {
+  color: #96f5e8;
+}
