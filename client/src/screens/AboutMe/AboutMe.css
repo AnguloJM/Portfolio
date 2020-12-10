@@ -11,8 +11,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #E1DAD3;
+  background: #e2e1e0;
   border-radius: 5px;
+  box-shadow: 0 0 33px -5px rgba(150, 245, 232, 1);
+  
 }
 
 #main-bio-pic {
