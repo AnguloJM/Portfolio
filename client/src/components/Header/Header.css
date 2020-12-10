@@ -7,7 +7,6 @@
 #home-img {
   min-width: 100%;
   height: 500px;
-  
 }
 
 #name-logo {
@@ -34,20 +33,14 @@
   font-size: 18px;
 }
 
-#home-link {
+#home-link a, #contactme-link a {
   color: #96f5e8;
+  text-decoration: none;
 }
 
-#aboutme-link {
+#aboutme-link a, #projects-link a {
   color:#ffffff;
-}
-
-#projects-link {
-color: #ffffff;
-}
-
-#contactme-link {
-  color: #96f5e8;
+  text-decoration: none;
 }
 
 .short-bio {
