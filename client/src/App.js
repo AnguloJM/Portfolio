@@ -1,8 +1,9 @@
 import React from 'react';
-import Header from './components/Header/Header'
-import AboutMe from './screens/AboutMe/AboutMe'
-import Projects from './screens/Projects/Projects'
-import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header';
+import AboutMe from './screens/AboutMe/AboutMe';
+import Projects from './screens/Projects/Projects';
+import ContactMe from './screens/Contact Me/ContactMe';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Header />
       <AboutMe />
       <Projects />
-      <Footer/>
+      <ContactMe />
+      <Footer />
     </div>
   );
 };

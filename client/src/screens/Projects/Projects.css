@@ -1,101 +1,51 @@
-/* .projects-box {
-  background-color: #364452;
-  height: 1300px;
-  display: flex;
-  flex-direction: column;
-}
-
-.projects-box-header {
-  height: 100px;
-
-}
-
-#projects-title {
-  color: #96f5e8;
-}
-
-#projects-intro-message {
-  color: #ffffff;
-}
-
-.projects {
-  height: 400px;
-  max-width: 1225px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.project-one {
-  min-width: 1024px;
-  height: 350px;
-  background-color: #ffffff;
-}
-
-.project-two {
-  min-width: 1024px;
-  height: 350px;
-  background-color: #ffffff;
-} 
-
-.project-three {
-  min-width: 1024px;
-  height: 350px;
-  background-color: #ffffff;
-} 
-
-.project-four {
-  min-width: 1024px;
-  height: 350px;
-  background-color: #ffffff;
-}
-
-#img-one {
-  height: 300px;
-  width: 450px;
-}
-
-#img-two {
-  height: 300px;
-  width: 450px;
-}
-
-#img-three {
-  height: 300px;
-  width: 450px;
-}
-
-#img-four {
-  height: 300px;
-  width: 450px;
-} */
-
 .projects-box {
   background-color: #364452;
   padding: 50px 50px 100px 50px;
 }
 
-#img-one {
-  width: 20%;
+.projects-box-header {
+  padding-bottom: 30px;
+  text-align: left;
 }
 
-.project-one {
-  background-color: white;
+#projects-section-title {
+  color: #96f5e8;
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#projects-intro-message {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#project-imgs {
+  width: 30%;
+}
+
+.project-cards {
+  background-color: #e2e1e0;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   text-align: left;
   padding: 50px;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1rem 2rem rgba(150, 245, 232, 0.7);
   border-radius: 5px;
-}
-
-.projects-box-header {
-  padding-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .card-content {
   padding-left: 50px;
   padding-right: 150px;
+}
+
+.projects-name {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.projects-description {
+  font-family: 'Montserrat', sans-serif;
 }
