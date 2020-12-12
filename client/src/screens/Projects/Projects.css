@@ -52,3 +52,16 @@
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
 }
+
+.project-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ls-buttons {
+  
+}
+
+.gh-buttons {
+
+}

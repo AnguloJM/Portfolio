@@ -16,10 +16,14 @@ const Projects = () => {
           />
           <div className="card-content">
             <h2 className="projects-name">Kepler</h2>
-            <p className="projects-description">Created a website for Soromma Technologies using React. Was contracted to make a one-page website after the delivery of a wire-frame to the CEO. For this wesite I decide to use syled-components as a new tool.
+            <p className="projects-description">Kepler is a clone of the iTunes Store. Created with Vanilla 
+            Javascript and utilization of the iTunes Store API, users can stay up to date with top rated songs 
+            and search for their favorite songs. Returned data includes albums, artist, and music samples.
             </p>
-            <button>Live Site</button>
-            <button>Github</button>  
+            <div className="project-buttons">
+              <button className="ls-buttons">Live Site</button>
+              <button className="gh-buttons">Github</button>  
+            </div>
           </div>
         </div>
         <div className="project-cards">
@@ -29,23 +33,34 @@ const Projects = () => {
           />
           <div className="card-content">
             <h2 className="projects-name">Venture-Roulette</h2>
-            <p className="projects-description">Created a website for Soromma Technologies using React. Was contracted to make a one-page website after the delivery of a wire-frame to the CEO. For this wesite I decide to use syled-components as a new tool.
+            <p className="projects-description"> Utilizing React and the Airtable API, Ventur-Roulette provides a fun way
+            to help users pick their next travel destination. Venture-Roulette shows the user a catalog of pictures,
+            not mentioning the destination. The user then likes the pictures that catch their eye. Likes are then 
+            tallied up and reveal their next destination.
             </p>
-            <button>Live Site</button>
-            <button>Github</button>  
+            <div className="project-buttons">
+              <button>Live Site</button>
+              <button>Github</button>  
+            </div>
           </div>
         </div>
         <div className="project-cards">
           <img
             id="project-imgs"
-            src="/assets/Screen Shot 2020-12-11 at 2.46.01 PM.png"
+            src="/assets/Screen Shot 2020-12-12 at 12.16.40 PM.png"
           />
           <div className="card-content">
             <h2 className="projects-name">Teacher Source</h2>
-            <p className="projects-description">Created a website for Soromma Technologies using React. Was contracted to make a one-page website after the delivery of a wire-frame to the CEO. For this wesite I decide to use syled-components as a new tool.
+            <p className="projects-description">Teacher Source is the result of a 
+            cross-collaboration with a UX team. With the help of two other Software Engineers, 
+            our team took the UX/UI Team's
+            design and brought it to life. This project uses Express, React.js, and Mongo DB
+            to create a dashboard for teachers to upload and share lesson planning resources.
             </p>
-            <button>Live Site</button>
-            <button>Github</button>  
+            <div className="project-buttons">
+              <button>Live Site</button>
+              <button>Github</button>  
+            </div>
           </div>
         </div>
         <div className="project-cards">
@@ -55,10 +70,16 @@ const Projects = () => {
           />
           <div className="card-content">
             <h2 className="projects-name">Babel's Shelf</h2>
-            <p className="projects-description">Created a website for Soromma Technologies using React. Was contracted to make a one-page website after the delivery of a wire-frame to the CEO. For this wesite I decide to use syled-components as a new tool.
+            <p className="projects-description">Created an online library of books using React and Ruby on Rails.
+              Users must create an account and login to use the application. All users can view books within the library.
+              If users do not see their desired book, they can add a book to the the library. 
+              Users can also personalize and save their own favorite books to your personal 
+              shelf!
             </p>
-            <button>Live Site</button>
-            <button>Github</button>  
+            <div className="project-buttons">
+              <button>Live Site</button>
+              <button>Github</button>  
+            </div>
           </div>
         </div>
       </div>
