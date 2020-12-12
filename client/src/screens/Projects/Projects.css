@@ -1,5 +1,5 @@
 .projects-box {
-  background-color: #364452;
+  background-color: #DBDBDB;
   padding: 50px 50px 100px 50px;
 }
 
@@ -9,7 +9,7 @@
 }
 
 #projects-section-title {
-  color: #96f5e8;
+  /* color: #96f5e8; */
   font-size: 36px;
   margin-top: 0;
   margin-bottom: 0;
@@ -17,22 +17,23 @@
 }
 
 #projects-intro-message {
-  color: #ffffff;
+  /* color: #ffffff; */
   font-family: 'Montserrat', sans-serif;
 }
 
 #project-imgs {
   width: 30%;
+  border-radius: 6px;
 }
 
 .project-cards {
-  background-color: #e2e1e0;
+  background-color: #1E2934;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   text-align: left;
   padding: 50px;
-  box-shadow: 0 1rem 2rem rgba(150, 245, 232, 0.7);
+  box-shadow: 10px 10px 33px 4px rgba(0,0,0,0.75);
   border-radius: 5px;
   margin-bottom: 60px;
 }
@@ -44,8 +45,10 @@
 
 .projects-name {
   font-family: 'Montserrat', sans-serif;
+  color: #96f5e8;
 }
 
 .projects-description {
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
 }

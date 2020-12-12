@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './components/Nav/Nav'
 import Header from './components/Header/Header';
 import AboutMe from './screens/AboutMe/AboutMe';
 import Projects from './screens/Projects/Projects';
@@ -10,9 +11,10 @@ function App() {
 
   return (
     <div className="App">
+      <Nav />
       <Header />
-      <AboutMe />
       <Projects />
+      <AboutMe />
       <ContactMe />
       <Footer />
     </div>

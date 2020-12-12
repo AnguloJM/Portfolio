@@ -8,12 +8,13 @@
 .contactme-header {
   height: 150px;
   text-align: center;
-  
+  padding-top: 33px;
 }
 
 #contactme-title {
 color: #96f5e8;
 font-size: 36px;
+margin-bottom: 0;
 font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,7 +35,7 @@ font-family: 'Montserrat', sans-serif;
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  height: 100%;
+  padding-bottom: 50px;
 }
 
 .contactme-form > div {
@@ -53,6 +54,7 @@ font-family: 'Montserrat', sans-serif;
   width: 70%;
   padding-bottom: 10px;
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 input {
@@ -62,13 +64,14 @@ input {
   border-bottom: 1.5px solid white;
   border-radius: 0px;
   background-color: #1E2934;
+  color: #ffffff;
 }
 
 input:focus {
   outline: none !important;
 }
 
-.pageclip-form > div > div {
+.contactme-form > div > div {
   width: 70%;
 }
 
@@ -77,6 +80,8 @@ textarea {
   width: 70%;
   resize: none;
   background: #e2e1e0;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .submit-button {
@@ -94,39 +99,4 @@ button > span {
   justify-content: center;
   align-items: center;
   height: 100%;
-}
-
-.footer {
-  background-color: #364452;
-  width: 100%;
-}
-
-.icons {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.fa-linkedin-square {
-  color: white;
-  font-size: 80px;
-  width: 56px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 20px;
-  margin-right: 69px;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-github {
-  font-size: 86px;
-  color: white;
-}
-
-#copyright {
-  color: #ffffff;
 }

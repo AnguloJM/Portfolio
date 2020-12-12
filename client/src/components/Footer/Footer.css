@@ -1,0 +1,36 @@
+.footer {
+  background-color: #364452;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.fa-linkedin-square {
+  color: #ffffff;
+  font-size: 80px;
+  width: 56px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-right: 69px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-github {
+  font-size: 86px;
+  color: #ffffff;
+}
+
+#copyright {
+  color: #ffffff;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}

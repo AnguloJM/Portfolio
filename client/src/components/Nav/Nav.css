@@ -1,0 +1,11 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 100px;
+  transition: background-color ease 0.2s;
+}
+
+.nav-is-scrolled {
+  background-color:rgba(54, 68, 82, 0.9);
+}

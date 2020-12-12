@@ -12,7 +12,7 @@ const Projects = () => {
         <div className="project-cards">
           <img
             id="project-imgs"
-            src="/assets/lamborghini-vision-gran-turismo-as-batmobile-t5.jpg"
+            src="/assets/Screen Shot 2020-12-11 at 2.37.52 PM (2).png"
           />
           <div className="card-content">
             <h2 className="projects-name">Kepler</h2>
@@ -25,11 +25,11 @@ const Projects = () => {
         <div className="project-cards">
           <img
             id="project-imgs"
-            src="/assets/lamborghini-vision-gran-turismo-as-batmobile-t5.jpg"
+            src="/assets/Screen Shot 2020-12-11 at 4.03.08 PM.png"
           />
           <div className="card-content">
             <h2 className="projects-name">Venture-Roulette</h2>
-            <p>Created a website for Soromma Technologies using React. Was contracted to make a one-page website after the delivery of a wire-frame to the CEO. For this wesite I decide to use syled-components as a new tool.
+            <p className="projects-description">Created a website for Soromma Technologies using React. Was contracted to make a one-page website after the delivery of a wire-frame to the CEO. For this wesite I decide to use syled-components as a new tool.
             </p>
             <button>Live Site</button>
             <button>Github</button>  
@@ -38,11 +38,11 @@ const Projects = () => {
         <div className="project-cards">
           <img
             id="project-imgs"
-            src="/assets/lamborghini-vision-gran-turismo-as-batmobile-t5.jpg"
+            src="/assets/Screen Shot 2020-12-11 at 2.46.01 PM.png"
           />
           <div className="card-content">
             <h2 className="projects-name">Teacher Source</h2>
-            <p>Created a website for Soromma Technologies using React. Was contracted to make a one-page website after the delivery of a wire-frame to the CEO. For this wesite I decide to use syled-components as a new tool.
+            <p className="projects-description">Created a website for Soromma Technologies using React. Was contracted to make a one-page website after the delivery of a wire-frame to the CEO. For this wesite I decide to use syled-components as a new tool.
             </p>
             <button>Live Site</button>
             <button>Github</button>  
@@ -51,11 +51,11 @@ const Projects = () => {
         <div className="project-cards">
           <img
             id="project-imgs"
-            src="/assets/lamborghini-vision-gran-turismo-as-batmobile-t5.jpg"
+            src="/assets/Screen Shot 2020-12-11 at 2.42.42 PM (2).png"
           />
           <div className="card-content">
             <h2 className="projects-name">Babel's Shelf</h2>
-            <p>Created a website for Soromma Technologies using React. Was contracted to make a one-page website after the delivery of a wire-frame to the CEO. For this wesite I decide to use syled-components as a new tool.
+            <p className="projects-description">Created a website for Soromma Technologies using React. Was contracted to make a one-page website after the delivery of a wire-frame to the CEO. For this wesite I decide to use syled-components as a new tool.
             </p>
             <button>Live Site</button>
             <button>Github</button>  
