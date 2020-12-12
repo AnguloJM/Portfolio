@@ -1,5 +1,5 @@
 .projects-box {
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   padding: 50px 50px 100px 50px;
 }
 
@@ -9,16 +9,14 @@
 }
 
 #projects-section-title {
-  /* color: #96f5e8; */
   font-size: 36px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #projects-intro-message {
-  /* color: #ffffff; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #project-imgs {
@@ -27,13 +25,13 @@
 }
 
 .project-cards {
-  background-color: #1E2934;
+  background-color: #1e2934;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   text-align: left;
   padding: 50px;
-  box-shadow: 10px 10px 33px 4px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 33px 4px rgba(0, 0, 0, 0.75);
   border-radius: 5px;
   margin-bottom: 60px;
 }
@@ -44,24 +42,43 @@
 }
 
 .projects-name {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #96f5e8;
+  font-size: 36px;
 }
 
 .projects-description {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
+  font-size: 26px;
 }
 
 .project-buttons {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 100px;
 }
 
 .ls-buttons {
-  
+  height: 50px;
+  width: 150px;
+  background: #1e2934;
+  color: #ffffff;
+  border: 2px solid #96f5e8;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 21px;
+  outline: none;
 }
 
 .gh-buttons {
-
+  height: 50px;
+  width: 150px;
+  background: #1e2934;
+  color: #ffffff;
+  border: 2px solid #96f5e8;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 21px;
+  outline: none;
 }

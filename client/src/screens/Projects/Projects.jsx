@@ -21,8 +21,8 @@ const Projects = () => {
             and search for their favorite songs. Returned data includes albums, artist, and music samples.
             </p>
             <div className="project-buttons">
-              <button className="ls-buttons">Live Site</button>
-              <button className="gh-buttons">Github</button>  
+            <a href="https://angulojm.github.io/Kepler/" target="_blank" rel="noopener noreferrer" ><button className="ls-buttons">Live Site</button></a>
+              <a href="https://github.com/AnguloJM/Kepler"target="_blank" rel="noopener noreferrer"><button className="gh-buttons">Github</button></a>  
             </div>
           </div>
         </div>
@@ -39,8 +39,8 @@ const Projects = () => {
             tallied up and reveal their next destination.
             </p>
             <div className="project-buttons">
-              <button>Live Site</button>
-              <button>Github</button>  
+              <a href="https://stoic-boyd-d4e4cf.netlify.app" target="_blank" rel="noopener noreferrer" ><button className="ls-buttons">Live Site</button></a>
+              <a href="https://github.com/AnguloJM/Venture-Roulette"target="_blank" rel="noopener noreferrer"><button className="gh-buttons">Github</button></a>   
             </div>
           </div>
         </div>
@@ -58,8 +58,8 @@ const Projects = () => {
             to create a dashboard for teachers to upload and share lesson planning resources.
             </p>
             <div className="project-buttons">
-              <button>Live Site</button>
-              <button>Github</button>  
+            <a href="https://teacher-source.netlify.app/" target="_blank" rel="noopener noreferrer" ><button className="ls-buttons">Live Site</button></a>
+              <a href="https://github.com/AnguloJM/teachersource"target="_blank" rel="noopener noreferrer"><button className="gh-buttons">Github</button></a>    
             </div>
           </div>
         </div>
@@ -77,8 +77,8 @@ const Projects = () => {
               shelf!
             </p>
             <div className="project-buttons">
-              <button>Live Site</button>
-              <button>Github</button>  
+              <a href="https://festive-albattani-b1d71e.netlify.app/" target="_blank" rel="noopener noreferrer" ><button className="ls-buttons">Live Site</button></a>
+              <a href="https://github.com/AnguloJM/Babels-Shelf"target="_blank" rel="noopener noreferrer"><button className="gh-buttons">Github</button></a> 
             </div>
           </div>
         </div>
@@ -88,3 +88,4 @@ const Projects = () => {
 };
 
 export default Projects;
+// https://angulojm.github.io/Kepler/
