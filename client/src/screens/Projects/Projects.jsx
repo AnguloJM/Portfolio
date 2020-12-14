@@ -78,7 +78,7 @@ const Projects = () => {
             </p>
             <div className="project-buttons">
               <a href="https://festive-albattani-b1d71e.netlify.app/" target="_blank" rel="noopener noreferrer" ><button className="ls-buttons">Live Site</button></a>
-              <a href="https://github.com/AnguloJM/Babels-Shelf"target="_blank" rel="noopener noreferrer"><button className="gh-buttons">Github</button></a> 
+              <a href="https://github.com/AnguloJM/Babels-Shelf"target="_blank" rel="noopener noreferrer" ><button className="gh-buttons">Github</button></a> 
             </div>
           </div>
         </div>
@@ -88,4 +88,3 @@ const Projects = () => {
 };
 
 export default Projects;
-// https://angulojm.github.io/Kepler/
