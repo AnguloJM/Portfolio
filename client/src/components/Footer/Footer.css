@@ -47,3 +47,18 @@ a span {
   overflow: hidden;
   top: -10px;
  }
+
+ .fa-linkedin-square:before {
+  content: "\f08c";
+  font-size: 86px;
+}
+
+.fa-github:before {
+  content: "\f09b";
+  font-size: 86px;
+}
+
+.fa-file-text:before {
+  content: "\f15c";
+  font-size: 75px;
+}
