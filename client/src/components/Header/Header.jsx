@@ -8,10 +8,10 @@ const Header = () => {
       <img
         id="home-img"
         src="/assets/foggy-mountains-nature-fog.jpg"
-        alt="Mountain Image"
+        alt="Foggy Mountains"
       />
       <div className="short-bio">
-        <img id="s-bio-img" src="/assets/me.jpg" alt="Bio Image" />
+        <img id="s-bio-img" src="/assets/me.jpg" alt="Bio" />
         <p id="intro-name">Jairo Angulo</p>
         <p id="intro-statement">Aspiring Software-Engineer | Bringing Ideas to Life</p>
       </div>

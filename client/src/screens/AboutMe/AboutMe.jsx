@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className="main-bio-box">
       <div className="inner-bio-box">
-        <img id="main-bio-pic" src="/assets/Screenshot_20201214-094807_Gallery.jpg"/>
+        <img id="main-bio-pic" src="/assets/Screenshot_20201214-094807_Gallery.jpg" alt="bio"/>
         <article className="main-bio">
           <h2 id="bio-title">About Me</h2>
           <p id="bio-statement">Highly passionate and self-driven Software 

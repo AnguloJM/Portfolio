@@ -13,6 +13,7 @@ const Projects = () => {
           <img
             id="project-imgs"
             src="/assets/Screen Shot 2020-12-11 at 2.37.52 PM (2).png"
+            alt="project sample"
           />
           <div className="card-content">
             <h2 className="projects-name">Kepler</h2>
@@ -30,6 +31,7 @@ const Projects = () => {
           <img
             id="project-imgs"
             src="/assets/Screen Shot 2020-12-11 at 4.03.08 PM.png"
+            alt="project sample"
           />
           <div className="card-content">
             <h2 className="projects-name">Venture-Roulette</h2>
@@ -48,6 +50,7 @@ const Projects = () => {
           <img
             id="project-imgs"
             src="/assets/Screen Shot 2020-12-12 at 12.16.40 PM.png"
+            alt="project sample"
           />
           <div className="card-content">
             <h2 className="projects-name">Teacher Source</h2>
@@ -67,6 +70,7 @@ const Projects = () => {
           <img
             id="project-imgs"
             src="/assets/Screen Shot 2020-12-11 at 2.42.42 PM (2).png"
+            alt="project sample"
           />
           <div className="card-content">
             <h2 className="projects-name">Babel's Shelf</h2>
