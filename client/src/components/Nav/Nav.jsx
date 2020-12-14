@@ -20,7 +20,6 @@ const Nav = () => {
         window.removeEventListener('scroll', listenScrollEvent);
     }, []);
   
-  console.log(nav)
   return (
     <div className={nav}>
       <div className="wrapper">
