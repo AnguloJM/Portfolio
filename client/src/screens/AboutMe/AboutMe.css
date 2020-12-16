@@ -73,3 +73,15 @@
   height:10%;
   width:10%;
 }
+
+#resume-button {
+  height: 50px;
+    width: 150px;
+    background: #1e2934;
+    color: #ffffff;
+    border: 2px solid #96f5e8;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 21px;
+    outline: none;
+}

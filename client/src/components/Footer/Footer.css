@@ -5,16 +5,14 @@
 
 .icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding-top: 20px;
-  padding: 20px 500px 20px 500px;
 }
 
 .fa-linkedin-square {
   color: #ffffff;
   font-size: 80px;
-  width: 56px;
   text-align: center;
   text-decoration: none;
   border-radius: 20px;
@@ -27,6 +25,7 @@
 .fa-github {
   font-size: 86px;
   color: #ffffff;
+  margin: 0 200px;
 }
 
 .fa-file-text {

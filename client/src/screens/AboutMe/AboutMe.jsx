@@ -19,6 +19,7 @@ const AboutMe = () => {
           </p>
           <h2 id="skills-title">Languages & Frameworks</h2>
           <p id="skills">HTML, CSS, JavaScript, React, Node.js, Ruby, Ruby on Rails, Postgresql, Express, MongoDB, & Mongoose.</p>
+          <a href="https://drive.google.com/file/d/12_4erQrYcM5xZNDXXAIDQmIdGfgmmRFO/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button id="resume-button">Resume</button></a>
         </article>
       </div>
     </div>

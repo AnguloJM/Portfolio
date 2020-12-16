@@ -83,12 +83,12 @@
   outline: none;
 }
 
-@media screen and (max-width:990px) {
+/* @media screen and (max-width:990px) {
   .projects-box {
-      /* background-color: #dbdbdb; */
-      /* padding: 50px 50px 100px 50px; */
+      background-color: #dbdbdb;
+      padding: 50px 50px 100px 50px;
       max-width: 600px;
-      /* display: flex; */
+      display: flex;
       margin: auto;
       display:flex;
     }
@@ -125,4 +125,4 @@
       margin-top: 50px;
       margin-bottom: 30px;
   }
-}
+} */
