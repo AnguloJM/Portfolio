@@ -16,7 +16,7 @@
   left: 16px;
   color: #96f5e8;
   font-size: 54px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .links {
@@ -27,19 +27,24 @@
   right: 16px;
 }
 
-#aboutme-link, #projects-link, #contactme-link, #home-link {
+#aboutme-link,
+#projects-link,
+#contactme-link,
+#home-link {
   display: inline;
   padding: 0 10px;
   font-size: 18px;
 }
 
-#home-link a, #contactme-link a {
+#home-link a,
+#contactme-link a {
   color: #96f5e8;
   text-decoration: none;
 }
 
-#aboutme-link a, #projects-link a {
-  color:#ffffff;
+#aboutme-link a,
+#projects-link a {
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -62,14 +67,33 @@
   font-size: 56px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
 #intro-statement {
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 0;
 }
 
+@media screen and (max-width: 414px) {
+  .links {
+    display: none;
+  }
 
+  #s-bio-img {
+    height: 120px;
+    width: 120px;
+  }
+
+  #intro-name {
+    line-height: 0.8;
+    margin-top: 8px;
+  }
+
+  #intro-statement {
+    margin-top: 20px;
+    width: 110%;
+  }
+}

@@ -45,9 +45,9 @@ a span {
   position: absolute;
   overflow: hidden;
   top: -10px;
- }
+}
 
- .fa-linkedin-square:before {
+.fa-linkedin-square:before {
   content: "\f08c";
   font-size: 86px;
 }
@@ -60,4 +60,10 @@ a span {
 .fa-file-text:before {
   content: "\f15c";
   font-size: 75px;
+}
+
+@media screen and (max-width: 414px) {
+  .fa-github {
+    margin: 0 20px;
+  }
 }

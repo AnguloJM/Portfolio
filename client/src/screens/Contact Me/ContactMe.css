@@ -12,21 +12,21 @@
 }
 
 #contactme-title {
-color: #96f5e8;
-font-size: 36px;
-margin-bottom: 0;
-font-family: 'Montserrat', sans-serif;
+  color: #96f5e8;
+  font-size: 36px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 #contactme-message {
-color: #ffffff;
-font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contacts {
   width: 80%;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contactme-form {
@@ -54,7 +54,7 @@ font-family: 'Montserrat', sans-serif;
   width: 70%;
   padding-bottom: 10px;
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 input {
@@ -63,7 +63,7 @@ input {
   border: none;
   border-bottom: 1.5px solid white;
   border-radius: 0px;
-  background-color: #1E2934;
+  background-color: #1e2934;
   color: #ffffff;
 }
 
@@ -81,7 +81,7 @@ textarea {
   resize: none;
   background: #e2e1e0;
   outline: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .submit-button {
@@ -90,7 +90,7 @@ textarea {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 button > span {
@@ -99,4 +99,28 @@ button > span {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+@media screen and (max-width: 414px) {
+  .contactme-form > div > label {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .contactme-form > div {
+    width: 90%;
+    margin-top: 121px;
+  }
+
+  textarea {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .submit-button {
+    width: 100%;
+  }
 }

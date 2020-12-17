@@ -9,18 +9,17 @@
 .inner-bio-box {
   max-width: 90%;
   align-items: center;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   background-color: #dbdbdb;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   text-align: left;
-  padding: 50px;
+  /* padding: 50px; */
   box-shadow: 10px 10px 33px 4px rgba(0, 0, 0, 0.75);
   border-radius: 5px;
   margin-bottom: 60px;
-  margin-top: 60px
-  
+  margin-top: 60px;
 }
 
 #main-bio-pic {
@@ -34,35 +33,34 @@
   width: 50%;
   padding-left: 20px;
   text-align: left;
-
 }
 
 #bio-title {
   text-align: left;
   padding-left: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 36px;
 }
 
 #bio-statement {
   text-align: left;
   padding-left: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 26px
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
 }
 
 #skills-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 36px;
   font-weight: normal;
 }
 
 #skills {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 26px;
 }
 
-.icons-box{
+.icons-box {
   justify-content: space-between;
   display: flex;
   flex-direction: row;
@@ -70,18 +68,36 @@
 }
 
 .icon {
-  height:10%;
-  width:10%;
+  height: 10%;
+  width: 10%;
 }
 
 #resume-button {
   height: 50px;
-    width: 150px;
-    background: #1e2934;
-    color: #ffffff;
-    border: 2px solid #96f5e8;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 21px;
-    outline: none;
+  width: 150px;
+  background: #1e2934;
+  color: #ffffff;
+  border: 2px solid #96f5e8;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 21px;
+  outline: none;
+}
+
+@media screen and (max-width: 414px) {
+  .main-bio-box {
+    flex-direction: column;
+  }
+
+  .inner-bio-box {
+    flex-direction: column;
+  }
+
+  #main-bio-pic {
+    width: 40%;
+  }
+
+  .main-bio {
+    width: 80%;
+  }
 }
